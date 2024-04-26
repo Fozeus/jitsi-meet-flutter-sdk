@@ -16,9 +16,7 @@ buildscript {
 
 rootProject.allprojects {
     repositories {
-        maven {
-            url "../jitsi-meet-flutter-sdk/jitsi-maven-repository/releases"
-        }
+        maven { url "file:./tmp/repo" }
         google()
         mavenCentral()
         maven { url 'https://www.jitpack.io' }
@@ -29,7 +27,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
