@@ -17,7 +17,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         maven {
-            url "https://github.com/Fozeus/fozeus-meet/tree/mobile/tmp/repo"
+            url "./jitsi-meet-flutter-sdk/jitsi-maven-repository/releases"
         }
         google()
         mavenCentral()
