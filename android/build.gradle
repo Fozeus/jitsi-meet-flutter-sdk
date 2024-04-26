@@ -17,7 +17,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         maven {
-            url "./jitsi-meet-flutter-sdk/jitsi-maven-repository/releases"
+            url "../jitsi-meet-flutter-sdk/jitsi-maven-repository/releases"
         }
         google()
         mavenCentral()
