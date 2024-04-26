@@ -1,6 +1,6 @@
 #!/bin/bash
 
-version=$(curl -s https://raw.githubusercontent.com/jitsi/jitsi-meet-release-notes/master/CHANGELOG-MOBILE-SDKS.md | awk ' /# [0-9.]+/ {print $2}' | head -1)
+version="99.0.0"
 gradle_repo="org.jitsi.react:jitsi-meet-sdk"
 pod_repo="JitsiMeetSDK"
 version_regex="(\d+\.)?(\d+\.)?(\*|\d+)"

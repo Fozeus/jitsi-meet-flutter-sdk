@@ -17,8 +17,7 @@ buildscript {
 rootProject.allprojects {
     repositories {
         maven {
-//            url "https://github.com/jitsi/jitsi-maven-repository/raw/master/releases"
-            url "https://github.com/Fozeus/jitsi-maven-repository/tree/mobile/releases"
+            url "https://raw.githubusercontent.com/Fozeus/jitsi-maven-repository/mobile/releases"
         }
         google()
         mavenCentral()
