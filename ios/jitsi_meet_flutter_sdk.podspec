@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'jitsi_meet_flutter_sdk'
-  s.version          = '99.0.0'
+  s.version          = '0.2.2'
   s.summary          = 'Jitsi Meet Flutter SDK'
   s.description      = <<-DESC
 Jitsi Meet Flutter SDK
@@ -12,7 +12,8 @@ Jitsi Meet Flutter SDK
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.source           = { :git => 'https://github.com/Fozeus/jitsi-meet-ios-sdk-releases/tree/mobile', :tag => '99.0.0' }
+#   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
   s.dependency 'JitsiMeetSDK', '99.0.0'
@@ -22,3 +23,6 @@ Jitsi Meet Flutter SDK
   s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
   s.swift_version = '5.0'
 end
+
+
+#   s.source = { :git => 'https://github.com/jitsi/jitsi-meet-ios-sdk-releases.git', :tag => s.version.to_s }
