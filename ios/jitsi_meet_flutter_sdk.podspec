@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'jitsi_meet_flutter_sdk'
-  s.version          = '99.0.0'
+  s.version          = '0.0.1'
   s.summary          = 'Jitsi Meet Flutter SDK'
   s.description      = <<-DESC
 Jitsi Meet Flutter SDK
@@ -12,10 +12,10 @@ Jitsi Meet Flutter SDK
   s.homepage         = 'http://example.com'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :git => 'https://github.com/Fozeus/jitsi-meet-ios-sdk-releases.git', :tag => '99.0.0' }
+  s.source           = { :git => 'https://github.com/Fozeus/jitsi-meet-ios-sdk-releases.git', :tag => '0.0.1' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
-  s.dependency 'JitsiMeetSDK', '99.0.0'
+  s.dependency 'JitsiMeetSDK', '0.0.1'
   s.platform = :ios, '13.4'
 
   # Flutter.framework does not contain a i386 slice.
